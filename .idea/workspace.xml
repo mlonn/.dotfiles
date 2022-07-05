@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e33d04ba-ee85-4542-b654-e28d1b6e1fc6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brew.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mac-setup.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nvm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ohmyzsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p10k/.p10k.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup-env.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/.circleci/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/.github/ISSUE_TEMPLATE/bug-report.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/.github/ISSUE_TEMPLATE/feature_request.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/.rspec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/.rubocop.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/.ruby-version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/DESCRIPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/Gemfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/Gemfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/INSTALL.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/URL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/VERSION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/ZSH_VERSIONS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/install_test_zsh.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/spec/async_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/spec/integrations/auto_cd_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/spec/integrations/bracketed_paste_magic_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/spec/integrations/client_zpty_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/spec/integrations/glob_subst_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/spec/integrations/rebound_bracket_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/spec/integrations/vi_mode_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/spec/integrations/wrapped_widget_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/spec/integrations/zle_input_stack_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/spec/kill_ring_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/spec/line_init_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/spec/multi_line_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/spec/options/buffer_max_size_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/spec/options/highlight_style_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/spec/options/original_widget_prefix_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/spec/options/strategy_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/spec/options/widget_lists_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/spec/spec_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/spec/strategies/completion_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/spec/strategies/history_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/spec/strategies/match_prev_cmd_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/spec/strategies/special_characters_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/spec/terminal_session.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/spec/widgets/disable_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/spec/widgets/enable_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/spec/widgets/fetch_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/spec/widgets/toggle_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/src/async.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/src/bind.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/src/config.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/src/fetch.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/src/highlight.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/src/start.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/src/strategies/completion.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/src/strategies/history.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/src/strategies/match_prev_cmd.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/src/util.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/src/widgets.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/.github/workflows/test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/.revision-hash" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/.version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/COPYING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/HACKING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/INSTALL.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/changelog.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/docs/highlighters.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/docs/highlighters/brackets.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/docs/highlighters/cursor.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/docs/highlighters/line.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/docs/highlighters/main.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/docs/highlighters/pattern.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/docs/highlighters/regexp.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/docs/highlighters/root.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/brackets/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/brackets/brackets-highlighter.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/brackets/test-data/cursor-matchingbracket-line-finish.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/brackets/test-data/cursor-matchingbracket.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/brackets/test-data/empty-styles.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/brackets/test-data/loop-styles.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/brackets/test-data/mismatch-patentheses.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/brackets/test-data/near-quotes.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/brackets/test-data/nested-parentheses.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/brackets/test-data/only-error.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/brackets/test-data/quoted-patentheses.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/brackets/test-data/simple-parentheses.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/brackets/test-data/unclosed-patentheses.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/brackets/test-data/unclosed-patentheses2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/cursor/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/cursor/cursor-highlighter.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/line/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/line/line-highlighter.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/abspath-in-command-position1.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/abspath-in-command-position1b.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/abspath-in-command-position2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/abspath-in-command-position3.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/abspath-in-command-position3b.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/abspath-in-command-position4.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/abspath-in-command-position5.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/alias-assignment1.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/alias-basic.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/alias-brackets.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/alias-command-substitution.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/alias-comment1.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/alias-comment2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/alias-complex.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/alias-empty.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/alias-eponymous1.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/alias-eponymous2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/alias-in-cmdsubst.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/alias-loop.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/alias-loop2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/alias-nested-precommand.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/alias-nested.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/alias-parameter.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/alias-precommand-option-argument1.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/alias-precommand-option-argument2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/alias-precommand-option-argument3.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/alias-precommand-option-argument4.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/alias-quoted.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/alias-redirect.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/alias-reuse1.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/alias-reuse2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/alias-reuse3.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/alias-reuse4.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/alias-reuse5.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/alias-self.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/alias-self2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/alias-to-dir.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/alias-to-dir1b.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/alias-unknown-token1.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/alias-unknown-token2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/alias.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/always1.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/always2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/always3.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/anonymous-function.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/arg0-colon.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/arith-cmdsubst-mess.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/arith1.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/arith2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/arithmetic-command-substitution.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/arithmetic-doubled-parens.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/arithmetic-empty.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/arithmetic-evaluation.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/arithmetic-hist-expn.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/arithmetic-invalid-chars.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/arithmetic-multiplication.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/arithmetic-nested.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/arithmetic-quoted.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/arithmetic-unclosed.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/arithmetic-unfinished.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/array-cmdsep1.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/array-cmdsep2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/array-cmdsep3.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/assign-append.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/assign-argv.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/assign-array.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/assign-array2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/assign-array3.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/assign-invalid-command.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/assign-not-array.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/assign-not-array2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/assign-quoted-cmdsubst.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/assign-semicolon.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/assign-subshell.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/assign-value-quote1.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/assign-value-quote2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/assign.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/assignment-before-resword1.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/assignment-before-resword2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/assignment-before-resword3.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/assignment-before-resword4.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/assignment-before-resword5.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/assignment-quoted.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/back-quoted-argument.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/back-quoted-open.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/backslash-continuation.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/backslash-continuation2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/backslash-space.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/backslash.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/bang-assign-array.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/bang-assign-scalar.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/bang-pipeline.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/block-assignment-no-command.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/braces1.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/braces2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/brackets-matching1.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/brackets-matching2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/brackets-mismatch1.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/brackets-mismatch10-if-negative.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/brackets-mismatch2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/brackets-mismatch3.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/brackets-mismatch4.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/brackets-mismatch5.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/brackets-mismatch6.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/brackets-mismatch7.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/brackets-mismatch8-if-positive.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/brackets-mismatch8.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/brackets-mismatch9-if-positive.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/brackets-premature-termination.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/cdpath-abspath.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/cmdpos-elision-partial.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/command-substitution-adjacent.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/command-substitution-in-assignment.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/command-substitution-unclosed.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/commandseparator.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/comment-followed.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/comment-leading.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/comment-off.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/comments.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/commmand-parameter.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/control-flow.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/control-flow2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/control-flow3.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/cthulhu.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/dinbrack1.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/dirs_blacklist.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/dollar-dollar.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/dollar-noise.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/dollar-paren.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/dollar-quoted.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/dollar-quoted2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/dollar-quoted3.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/double-hyphen-option.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/double-quoted.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/double-quoted2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/double-quoted3.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/double-quoted4.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/empty-command-newline.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/empty-command.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/empty-command2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/empty-line.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/equals1.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/equals2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/equals3.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/equals4.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/escaped-single-quote.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/exec-redirection1.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/fd-target-not-filename.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/function-altsyntax.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/function-named1.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/function-named2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/function.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/glob.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/global-alias1.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/globs-with-quoting.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/hashed-command.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/history-double-quoted-escaped.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/history-double-quoted-followed.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/history-double-quoted-no.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/history-double-quoted-unescaped.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/history-double-quoted-yes.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/history-expansion.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/history-expansion2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/inheritance.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/jobsubst-isnt-glob.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/jobsubst-isnt-glob2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/loop-newline.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/meta-no-eval1.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/meta-no-eval2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/multiline-array-assignment1.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/multiline-string.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/multiline-string2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/multios-negates-globbing.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/multios-negates-globbing2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/multiple-quotes.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/multiple-redirections.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/noglob-alias.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/noglob-always.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/noglob1.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/noglob2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/noglob3.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/noglob4.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/null-exec.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/null-exec2-printenv.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/number_range-glob.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/off-by-one.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/opt-shwordsplit1.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/optimized-cmdsubst-input.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/option-dollar-quote-isnt-filename.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/option-path_dirs.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/option-with-quotes.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/order-path-after-dollar.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/order-path-before-globbing.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/param-positional-in-array-append.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/param-precommand-option-argument1.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/param-precommand-option-argument3.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/parameter-elision-command-word.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/parameter-expansion-shwordsplit.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/parameter-expansion-untokenized1.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/parameter-expansion-untokenized2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/parameter-star.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/parameter-to-global-alias.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/parameter-value-contains-command-position1.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/parameter-value-contains-command-position2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/pasted-quotes.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/path-broken-symlink.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/path-dollared-word.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/path-dollared-word2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/path-dollared-word3.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/path-dollared-word3b.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/path-dollared-word4.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/path-mixed-quoting.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/path-separators.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/path-separators2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/path-space.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/path-tilde-home.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/path-tilde-home2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/path-tilde-home3.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/path-tilde-named.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/path.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/path_prefix.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/path_prefix2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/path_prefix3.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/plain-file-in-command-position.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/precommand-killing1.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/precommand-killing2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/precommand-then-assignment.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/precommand-type1.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/precommand-type2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/precommand-type3.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/precommand-uninstalled.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/precommand-unknown-option.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/precommand.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/precommand2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/precommand3.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/precommand4.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/prefix-redirection.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/process-substitution-after-redirection.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/process-substitution-redirection-isnt-globbing.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/process-substitution.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/process-substitution2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/quoted-command-substitution-empty.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/quoted-redirection-in-command-word.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/rc-quotes.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/redirection-comment.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/redirection-from-param.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/redirection-in-cmdsubst.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/redirection-inhibits-elision.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/redirection-is-not-option.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/redirection-special-cases.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/redirection.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/redirection2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/redirection3.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/reserved-word.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/simple-command.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/simple-redirection.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/subshell.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/sudo-command.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/sudo-comment.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/sudo-longopt.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/sudo-redirection.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/sudo-redirection2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/sudo-redirection3.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/tilde-command-word.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/time-and-nocorrect1.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/time-and-nocorrect2.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/unbackslash.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/unknown-command.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/vanilla-newline.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/main/test-data/vi-linewise-mode.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/pattern/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/pattern/pattern-highlighter.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/pattern/test-data/rm-rf.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/regexp/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/regexp/regexp-highlighter.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/regexp/test-data/complex.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/regexp/test-data/subexpression.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/regexp/test-data/word-boundary.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/root/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/highlighters/root/root-highlighter.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/images/after1-smaller.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/images/after1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/images/after2-smaller.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/images/after2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/images/after3-smaller.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/images/after3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/images/after4-smaller.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/images/before1-smaller.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/images/before1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/images/before2-smaller.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/images/before2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/images/before3-smaller.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/images/before3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/images/before4-smaller.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/images/preview-smaller.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/images/preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/release.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/tests/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/tests/edit-failed-tests" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/tests/generate.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/tests/tap-colorizer.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/tests/tap-filter" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/tests/test-highlighting.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/tests/test-perfs.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/tests/test-zprof.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsh/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/brew.sh" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mac-setup.sh" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/p10k/.p10k.zsh" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/zsh/.zshrc" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BIQnohvs8hkkrWcKs9k1YQlQpW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/krulla/.dotfiles&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/zsh/.zsh" />
+      <recent name="$PROJECT_DIR$/nvmw" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/ohmyzsh/ohmyzsh" />
+      <recent name="$PROJECT_DIR$/zsh" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e33d04ba-ee85-4542-b654-e28d1b6e1fc6" name="Changes" comment="" />
+      <created>1656591289007</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656591289007</updated>
+      <workItem from="1656591291252" duration="3809000" />
+      <workItem from="1656595109807" duration="1009000" />
+      <workItem from="1656596422614" duration="3614000" />
+      <workItem from="1656600095348" duration="404000" />
+      <workItem from="1656600937203" duration="859000" />
+      <workItem from="1656658065719" duration="2455000" />
+      <workItem from="1656915882457" duration="807000" />
+      <workItem from="1656938110030" duration="1869000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
