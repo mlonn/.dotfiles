@@ -8,4 +8,10 @@
 
 [submodule "zsh/.zsh/zsh-syntax-highlighting"]
 	path = zsh/.zsh/zsh-syntax-highlighting
-	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
+	url = https://github.com/zsh-users/zsh-syntax-highlighting.gitç
+[submodule "nvm/.nvm"]
+	path = nvm/.nvm
+	url = https://github.com/nvm-sh/nvm.git
+[submodule "ohmyzsh/.ohmyzsh"]
+	path = ohmyzsh/.ohmyzsh
+	url = https://github.com/ohmyzsh/ohmyzsh.git
